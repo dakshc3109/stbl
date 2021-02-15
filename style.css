@@ -4,17 +4,17 @@ body {
     text-align: center;
 }
 
-.image {
+.profile {
     width: 175px;
     margin-bottom: 50px;
     border-radius: 50%;
 }
 
-#sectionOne {
+#welcome {
+
     position: absolute;
-    vertical-align: middle;
     overflow: hidden;
-    height: auto;
+    height: 700px;
     left: 0;
     right: 0;
     top: 0;
@@ -27,9 +27,13 @@ body {
 #name {
     font-size: 30px;
     line-height: 1.2;
-    font-family: fantasy;
+    font-family: 'Cinzel Decorative', cursive;
 }
 
+.parallax-inner {
+    position: relative;
+    vertical-align: middle;
+}
 
 .content {
     padding-left: 25%;
@@ -45,12 +49,12 @@ body {
     margin: 8px auto;
 }
 
-label {
+label,
+h1 {
     font-size: 50px;
 }
 
 .menu {
-    color: black;
     font-family: sans-serif;
     list-style: none;
     position: absolute;
@@ -60,18 +64,30 @@ label {
     cursor: pointer;
 }
 
-.items {
-
-    padding-right: 5px;
-    padding-left: 5px;
+.links {
+    font-family: fantasy;
+    font-size: 20px;
+    color: white;
     float: left;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-family: 'Titillium Web', sans-serif;
-    color: white;
-
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
-.items:hover {
-    background-color: plum;
+.links:hover {
+    background-color: dodgerblue;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: royalblue;
+    text-shadow: 1px 1px blueviolet;
+}
+.article:hover{
+    color: orangered;
+}
+   
