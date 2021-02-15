@@ -4,17 +4,17 @@ body {
     text-align: center;
 }
 
-.profile {
+.image {
     width: 175px;
     margin-bottom: 50px;
     border-radius: 50%;
 }
 
-#welcome {
-
+#sectionOne {
     position: absolute;
+    vertical-align: middle;
     overflow: hidden;
-    height: 700px;
+    height: auto;
     left: 0;
     right: 0;
     top: 0;
@@ -27,13 +27,9 @@ body {
 #name {
     font-size: 30px;
     line-height: 1.2;
-    font-family: 'Cinzel Decorative', cursive;
+    font-family: fantasy;
 }
 
-.parallax-inner {
-    position: relative;
-    vertical-align: middle;
-}
 
 .content {
     padding-left: 25%;
@@ -54,6 +50,7 @@ label {
 }
 
 .menu {
+    color: black;
     font-family: sans-serif;
     list-style: none;
     position: absolute;
@@ -63,17 +60,18 @@ label {
     cursor: pointer;
 }
 
-.links {
-    font-family: fantasy;
-    font-size: 20px;
-    color: white;
+.items {
+
+    padding-right: 5px;
+    padding-left: 5px;
     float: left;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 5px;
-    padding-left: 5px;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+
 }
 
-.links:hover {
-    background-color: dodgerblue;
+.items:hover {
+    background-color: plum;
 }
