@@ -11,15 +11,14 @@ body {
 }
 
 #welcome {
-
+    z-index: 9;
     position: absolute;
     overflow: hidden;
-    height: 700px;
-    left: 0;
-    right: 0;
-    top: 0;
+    color: white;
     bottom: 0;
-
+    display: table;
+    height: 100%;
+    width: 100%;
     opacity: 0.83;
     background: linear-gradient(#d5e620 0%, #1cd69b 100%);
 }
@@ -55,39 +54,62 @@ h1 {
 }
 
 .menu {
+    width: 100%;
     font-family: sans-serif;
     list-style: none;
-    position: absolute;
-    top: 10px;
-    right: 30px;
+    position: fixed;
+    margin-top: 0px;
     z-index: 10;
     cursor: pointer;
+    background: white;
+    top: 0px;
 }
 
 .links {
+    display: inline;
     font-family: fantasy;
     font-size: 20px;
-    color: white;
-    float: left;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-right: 25px;
+    padding-left: 33px;
 }
 
 .links:hover {
-    background-color: dodgerblue;
+    font-size: 25px;
+    text-decoration: underline;
 }
 
 html {
     scroll-behavior: smooth;
 }
-a{
+
+a {
     text-decoration: none;
     color: royalblue;
     text-shadow: 1px 1px blueviolet;
 }
-.article:hover{
+
+#writing a{
+    text-shadow: none !imporatnt;
+    color: orange !important;
+    text-decoration: underline !important;
+}
+
+.article:hover {
     color: orangered;
 }
-   
+
+#contact{
+    background-color: red;
+    width: 100%;
+}
+.contact_1 a{
+    color: white;
+    text-shadow: none;
+}
+h3{
+    display: inline;
+}
+
+img{
+    padding-top: 40px;
+}
